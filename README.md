@@ -5,11 +5,11 @@ Java Unit-Testing-Training is a sandbox code for the xunit testing training.
 ## What we are building
 
 So we are building a basic bank. We need to develop the following business capabilities:
-A) The USER must have the ability to *deposit* money.
-B) The USER must have the ability to *withdraw* money.
-C) The USER must have the ability to *check* his money balance.
-D) The USER must have the ability to *transf* his money to other account with 5% bank fees.
-E) The USER must have the ability to *save* his money into savings account where he will get %22 gains per minute with 2% bank fee on the *withdraw*.
+* A) The USER must have the ability to *deposit* money.
+* B) The USER must have the ability to *withdraw* money.
+* C) The USER must have the ability to *check* his money balance.
+* D) The USER must have the ability to *transf* his money to other account with 5% bank fees.
+* E) The USER must have the ability to *save* his money into savings account where he will get %22 gains per minute with 2% bank fee on the *withdraw*.
 
 ## What do we need todo
 
