@@ -20,3 +20,13 @@ So we are building a basic bank. We need to develop the following business capab
 3. We need create proper unit tests that validate the core-features and also validate the proper happy path but also the corner-cases or failure scenatios as well.
 
 4. As we implement the tests we will implemet the business capabilities and refactor the code. We should be running the tests all the time.
+
+## House Rules
+
+1. No Frameworks or external libs are allowed.
+
+2. You can do this training in pairs.
+
+3. A "PO" might ask you to change anything at anytime, so your code must be working ALWAYS, all the TIME.
+
+4. You cannot create BRANCHS to make the CODE STABLE.
