@@ -1,8 +1,10 @@
 package com.github.diegopacheco.xunit.testing.bank.service;
 
-import com.github.diegopacheco.xunit.testing.bank.model.Account;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.github.diegopacheco.xunit.testing.bank.model.Account;
 
 public class AccountServiceTest {
 
@@ -14,6 +16,7 @@ public class AccountServiceTest {
         a.value = 0;
         AccountService ass = new AccountService();
         ass.update(a, 10);
+        assertEquals(10, 10);
     }
     
 }
