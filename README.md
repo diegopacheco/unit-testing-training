@@ -30,3 +30,26 @@ So we are building a basic bank. We need to develop the following business capab
 3. A "PO" might ask you to change anything at anytime, so your code must be working ALWAYS, all the TIME.
 
 4. You cannot create BRANCHS to make the CODE STABLE.
+
+## In order to generate the project in Eclipse / Intelij
+```bash
+~/.gradle/init.gradle
+```
+```bash
+allprojects {
+
+  apply plugin: 'eclipse'
+  apply plugin: 'idea'
+
+   tasks.withType(JavaExec) {
+      if (System.getProperty('DEBUG', 'false') == 'true') {
+         jvmArgs '-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=9009'
+      }
+   }
+
+}
+```
+```bash
+./gradlew eclipse 
+```
+After that you can import on your ide. 
